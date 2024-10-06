@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
+    <link rel="shortcut icon" href="/images/logo.png"/>
 </head>
 
 <body>
@@ -18,6 +19,11 @@
             <div class="header__content_left">
                 <a class="header__content_left_logo logo" href="#">Organick</a>
                 <nav class="header__nav">
+                    <button class="header__nav_toggle btn_primary"><label for="header__nav_toggle">Menu</label></button>
+                    <input type="checkbox" id="header__nav_toggle">
+
+                    <button class="header__nav_close"><label for="header__nav_toggle">+</label></button>
+        
                     <ul class="header__nav_list">
                         <li class="header__nav_item"><a class="header__nav_link active" href="#">Home</a></li>
                         <li class="header__nav_item"><a class="header__nav_link" href="#">About us</a></li>

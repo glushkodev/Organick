@@ -60,6 +60,15 @@ body {
     align-items: center;
 }
 
+.header__nav_close,
+.header__nav_toggle {
+    display: none;
+}
+
+#header__nav_toggle {
+    display: none;
+}
+
 .header__nav_list {
     display: flex;
     gap: 40px;
@@ -83,7 +92,7 @@ body {
 
 .header__content_basket {
     border: 1px solid #D4D4D4;
-    border-radius: 30px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -174,7 +183,7 @@ body {
 
 .btn_primary_but {
     background-color: #335B6B;
-    padding: 11px 11px;
+    padding: 11px 13px;
     border-radius: 50%;
     margin-left: 29px;
 }
@@ -229,7 +238,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 47%;
+    width: 51%;
 }
 
 .promo-cards__natural_title,
@@ -419,11 +428,16 @@ body {
     border-radius: 8px;
 }
 
+.products__content_items_item_img,
+.offers__content_items_item_img {
+    width: 100%;
+}
+
 .products__content_items_item_link,
 .offers__content_items_item_link {
     font-size: 22px;
     line-height: 35px;
-    margin-bottom: 22px;
+    margin-bottom: 16px;
     font-weight: 400;
     text-decoration: none;
     color: #274C5B;
@@ -444,7 +458,7 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #D4D4D4;
-    padding-top: 22px;
+    padding-top: 16px;
     align-items: center;
     width: 100%;
 }
@@ -481,7 +495,7 @@ body {
 .reviews {
     background-image: url(/images/bg_review.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
@@ -869,4 +883,5 @@ body {
 
 .footer__map {
     width: 100%;
+    margin: 0;
 }
