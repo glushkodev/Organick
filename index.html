@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exam</title>
+    <meta name="author" content="Ekaterina Glushko">
+    <title>Organick</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
 </head>
+
 <body>
-
-<div class="exam">
-
+<div class="site">
 <header class="header">
     <div class="container">
         <div class="header__content">
-            <nav class="header__nav">
-                <ul class="header__nav_list">
-                    <li class="header__nav_item"><a class="header__nav_link active" href="#">Home</a></li>
-                    <li class="header__nav_item"><a class="header__nav_link" href="#">About us</a></li>
-                    <li class="header__nav_item"><a class="header__nav_link" href="#">Shop</a></li>
-                    <li class="header__nav_item"><a class="header__nav_link" href="#">Pages</a></li>
-                    <li class="header__nav_item"><a class="header__nav_link" href="#">Contact us</a></li>
-                </ul>
-            </nav>
-            <div class="header__basket">
-                <div class="header__basket_bas"></div>
-                <div class="header__basket_cart">
-                    <label class="header__basket_cart_cart" for="cart">Cart</label>
-                    <input type="number" id="cart" name="cart" value="0" min="0" max="100" class="header__basket_cart_number"/>
+            <div class="header__content_left">
+                <a class="header__content_left_logo logo" href="#">Organick</a>
+                <nav class="header__nav">
+                    <ul class="header__nav_list">
+                        <li class="header__nav_item"><a class="header__nav_link active" href="#">Home</a></li>
+                        <li class="header__nav_item"><a class="header__nav_link" href="#">About us</a></li>
+                        <li class="header__nav_item"><a class="header__nav_link" href="#">Shop</a></li>
+                        <li class="header__nav_item"><a class="header__nav_link" href="#">Pages</a></li>
+                        <li class="header__nav_item"><a class="header__nav_link" href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__content_basket">
+                <div class="header__content_basket_bas"></div>
+                <div class="header__content_basket_cart">
+                    <label class="header__content_basket_cart_cart" for="cart">Cart</label>
+                    <input type="number" id="cart" name="cart" value="0" min="0" max="100" class="header__content_basket_cart_number"/>
                 </div>
             </div>
         </div>
@@ -44,7 +47,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="promo-cards">
     <div class="container">
@@ -95,14 +97,12 @@
     </div>
 </section>
 
-
 <section class="products">
     <div class="container">
         <div class="products__content">
             <h3 class="products__content_descr">Organic</h3>
             <h2 class="products__content_title">Our Products</h2>
             <div class="products__content_items">
-
                 <div class="products__content_items_item">
                     <div class="products__content_items_item_category">Vegetable</div>
                     <img class="products__content_items_item_img" src="/images/broccoli.png" alt="#">
@@ -160,7 +160,6 @@
                     </div>
                 </div>
 
-
                 <div class="products__content_items_item">
                     <div class="products__content_items_item_category">Vegetable</div>
                     <img class="products__content_items_item_img" src="/images/tomato.png" alt="#">
@@ -179,8 +178,6 @@
                         </div>
                     </div>
                 </div>
-
-
 
                 <div class="products__content_items_item">
                     <div class="products__content_items_item_category">Fruits</div>
@@ -225,38 +222,217 @@
 </section>
 
 <section class="reviews">
-    <div class="container">
-    
+    <div class="reviews__content">
+        <div class="reviews__content_customer">
+            <h3 class="reviews__content_customer_descr">Testimonial</h3>
+            <h2 class="reviews__content_customer_title">What Our Customer Saying?</h2>
+            <img class="reviews__content_customer_avatar" src="/images/avatar_review.png" alt="#">
+            <div class="reviews__content_customer_stars">
+                <img class="reviews__content_customer_stars_star" src="/images/ico_star2.png" alt="#">
+                <img class="reviews__content_customer_stars_star" src="/images/ico_star2.png" alt="#">
+                <img class="reviews__content_customer_stars_star" src="/images/ico_star2.png" alt="#">
+                <img class="reviews__content_customer_stars_star" src="/images/ico_star2.png" alt="#">
+                <img class="reviews__content_customer_stars_star" src="/images/ico_star2.png" alt="#">
+            </div>
+            <p class="reviews__content_customer__text">The quality of organic produce is extremely high, the service is second to none and the taste of the food takes me back to my childhood when we were growing our own.</p>
+            <h3 class="reviews__content_customer_name">Sara Taylor</h3>
+            <h4 class="reviews__content_customer_cons">Consumer</h4>
+        </div>
+
+        <div class="reviews__content_items">
+            <div class="reviews__content_items_item">
+                <div class="reviews__content_items_item_numb">100%</div>
+                <div class="reviews__content_items_item_descr">Organic</div>
+            </div>
+            <div class="reviews__content_items_item">
+                <div class="reviews__content_items_item_numb">285</div>
+                <div class="reviews__content_items_item_descr">Active Product</div>
+            </div>
+            <div class="reviews__content_items_item">
+                <div class="reviews__content_items_item_numb">385+</div>
+                <div class="reviews__content_items_item_descr">Organic Orchads</div>
+            </div>
+            <div class="reviews__content_items_item">
+                <div class="reviews__content_items_item_numb">25+</div>
+                <div class="reviews__content_items_item_descr">Years of Farming</div>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="offers">
     <div class="container">
-    
+        <div class="offers__content">
+            <h3 class="offers__content_descr">Offer Products</h3>
+            <div class="offers__content_cont">
+                <h2 class="offers__content_title">We Offer Organic for You</h2>
+                <button class="offers__content_cont_btn btn_primary">View All products<span class="btn_primary_but"><svg class="btn_primary_but_arr" width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.0384 6.50003H1M9.07688 1L16 6.50003L9.07688 12V1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+            </div>
+            <div class="offers__content_items">
+                <div class="offers__content_items_item">
+                    <div class="offers__content_items_item_category">Vegetable</div>
+                    <img class="offers__content_items_item_img" src="/images/tomato.png" alt="#">
+                    <a href="#" class="offers__content_items_item_link">Vegan Red Tomato</a>
+                    <div class="offers__content_items_item_foot">
+                        <div class="offers__content_items_item_foot_price">
+                            <span class="offers__content_items_item_foot_price-before">$ 14.00 usd</span>
+                            <span class="offers__content_items_item_foot_price-after">$ 9.37 usd</span>
+                        </div>
+                        <div class="offers__content_items_item_foot_stars">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offers__content_items_item">
+                    <div class="offers__content_items_item_category">Fruits</div>
+                    <img class="offers__content_items_item_img" src="/images/almonds.png" alt="#">
+                    <a href="#" class="offers__content_items_item_link">Organic Almonds</a>
+                    <div class="offers__content_items_item_foot">
+                        <div class="offers__content_items_item_foot_price">
+                            <span class="offers__content_items_item_foot_price-before">$ 21.00 usd</span>
+                            <span class="offers__content_items_item_foot_price-after">$ 18.00 usd</span>
+                        </div>
+                        <div class="offers__content_items_item_foot_stars">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offers__content_items_item">
+                    <div class="offers__content_items_item_category">Vegetable</div>
+                    <img class="offers__content_items_item_img" src="/images/corn.png" alt="#">
+                    <a href="#" class="offers__content_items_item_link">Fresh Corn</a>
+                    <div class="offers__content_items_item_foot">
+                        <div class="offers__content_items_item_foot_price">
+                            <span class="offers__content_items_item_foot_price-before">$ 21.23 usd</span>
+                            <span class="offers__content_items_item_foot_price-after">$ 18.00 usd</span>
+                        </div>
+                        <div class="offers__content_items_item_foot_stars">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                            <img class="offers__content_items_item_foot_stars_star" src="/images/ico_star.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-
 <section class="farm">
-    <div class="container">
-    
+    <div class="farm__content">
+        <div class="farm__content_img"></div>
+        <div class="farm__content_cont">
+            <div class="farm__content_cont_descr">Eco Friendly</div>
+            <h2 class="farm__content_cont_title">From our Farm To your Home.</h2>
+            <h3 class="farm__content_cont_subtitle">Choose Your Products</h3>
+            <p class="farm__content_cont_subtitle_text">In our listing, we have several collections of organic products. This is the place where you need to choose the product you want.</p>
+            <h3 class="farm__content_cont_subtitle">Farmers will produce it</h3>
+            <p class="farm__content_cont_subtitle_text">The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.</p>
+            <h3 class="farm__content_cont_subtitle">We Can Delivery too</h3>
+            <p class="farm__content_cont_subtitle_text">If you are not comfortable going to the nearby market place we also will deliver your product to your doorstep.</p>
+        </div>
     </div>
 </section>
 
 <section class="cards">
-    <div class="container">
-    
+    <div class="cards__items">
+        <div class="cards__items_item cards__items_item-juice">
+            <button class="cards__items_item_btn">Fruit Juice</button>
+        </div>
+        <div class="cards__items_item cards__items_item-food">
+            <button class="cards__items_item_btn">Organic Food</button>
+        </div>
+        <div class="cards__items_item cards__items_item-cookies">
+            <button class="cards__items_item_btn">Nuts Cookies</button>
+        </div>
     </div>
 </section>
 
 <footer class="footer">
     <div class="container">
-        <div class="footer__subscribe"></div>
-        <div class="footer__content"></div>
-        <div class="footer__map"></div>
+        <div class="footer__subscribe">
+            <h2 class="footer__subscribe_title">Subscribe our Newsletter</h2>
+            <div class="footer__subscribe_form">
+                <form>
+                    <input class="footer__subscribe_field" name="subscribe_field" type="email" placeholder="Enter your email address" required />
+                </form>
+                <button class="footer__subscribe_btn btn_primary">Subscribe<span class="btn_primary_but"><svg class="btn_primary_but_arr" width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.0384 6.50003H1M9.07688 1L16 6.50003L9.07688 12V1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+            </div>
+        </div>
+
+        <div class="footer__content">
+            <div class="footer__content_contacts">
+                <h2 class="footer__content_title">Contact Us</h2>
+                <div class="footer__content_items">
+                    <h3 class="footer__content_items_cont">Email</h3>
+                    <a class="footer__content_items_link" href="#">needhelp@organick.com</a>
+                </div>
+                <div class="footer__content_items">
+                    <h3 class="footer__content_items_cont">Phone</h3>
+                    <a class="footer__content_items_link" href="#">123 (1254) 1452</a>
+                </div>
+                <div class="footer__content_items">
+                    <h3 class="footer__content_items_cont">Address</h3>
+                    <a class="footer__content_items_link" href="#">88 Road, Brooklyn Street, USA</a>
+                </div>
+            </div>
+
+            <div class="footer__content_main">
+                <a class="footer__content_main_logo logo" href="#">Organick</a>
+                <p class="footer__content_main_text">We are a popular and farming company aspiring to be a leader in the Organic food industry.</p>
+                <div class="footer__content_main_social">
+                    <div class="footer__content_main_social_item">
+                        <a href="#" class="footer__content_main_social_link">
+                            <svg class="footer__content_main_social_link_ico" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.2828 9.45619C19.2828 4.32909 14.9657 0.171875 9.64141 0.171875C4.31711 0.171875 0 4.32909 0 9.45619C0 14.0901 3.52514 17.9311 8.13494 18.6282V12.1408H5.68628V9.45619H8.13494V7.41075C8.13494 5.08428 9.5747 3.79815 11.7767 3.79815C12.8317 3.79815 13.9353 3.9797 13.9353 3.9797V6.26472H12.7189C11.5219 6.26472 11.1475 6.9801 11.1475 7.71538V9.45619H13.8212L13.3942 12.1408H11.1479V18.6291C15.7577 17.9323 19.2828 14.0913 19.2828 9.45619Z" fill="#274C5B"/></svg>
+                        </a>
+                    </div>
+                    <div class="footer__content_main_social_item">
+                        <a href="#" class="footer__content_main_social_link">
+                            <svg class="footer__content_main_social_link_ico" width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.6602 2.1303C19.8852 2.46704 19.0652 2.68888 18.2261 2.78884C19.1079 2.2725 19.7711 1.45219 20.0912 0.481785C19.2575 0.969275 18.3469 1.31133 17.3984 1.49328C16.9991 1.0747 16.5187 0.741717 15.9866 0.514559C15.4546 0.287401 14.8818 0.170813 14.3033 0.171882C11.9609 0.171882 10.0654 2.03991 10.0654 4.34266C10.0637 4.66296 10.1004 4.98231 10.1747 5.29389C8.49507 5.21515 6.85036 4.78666 5.34581 4.03588C3.84126 3.28508 2.50999 2.2285 1.43717 0.933726C1.0608 1.56822 0.861758 2.29216 0.86084 3.02988C0.86084 4.47609 1.61537 5.75444 2.75469 6.50337C2.07967 6.48735 1.41849 6.30868 0.827268 5.98255V6.0342C0.827268 8.05717 2.2907 9.74012 4.22759 10.1232C3.86336 10.2203 3.48803 10.2695 3.11108 10.2696C2.84361 10.27 2.57674 10.2441 2.31437 10.1921C2.85283 11.8492 4.41999 13.0544 6.27639 13.0888C4.76793 14.2513 2.91593 14.8797 1.01149 14.8751C0.673443 14.8746 0.335713 14.8544 0 14.8148C1.9374 16.0519 4.18947 16.7063 6.48815 16.7C14.2943 16.7 18.5589 10.3427 18.5589 4.82902C18.5589 4.64825 18.5541 4.46747 18.5455 4.29101C19.3733 3.70222 20.0893 2.97053 20.6602 2.1303Z" fill="#274C5B"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="footer__content_main_social_item">
+                        <a href="#" class="footer__content_main_social_link">
+                            <svg class="footer__content_main_social_link_ico" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1_478)"><path d="M13.6585 1.71913C14.7231 1.72219 15.7431 2.13076 16.4958 2.85563C17.2486 3.5805 17.6729 4.56275 17.6761 5.58786V13.3246C17.6729 14.3497 17.2486 15.3319 16.4958 16.0568C15.7431 16.7817 14.7231 17.1902 13.6585 17.1933H5.6243C4.55976 17.1902 3.53973 16.7817 2.78698 16.0568C2.03423 15.3319 1.60994 14.3497 1.60676 13.3246V5.58786C1.60994 4.56275 2.03423 3.5805 2.78698 2.85563C3.53973 2.13076 4.55976 1.72219 5.6243 1.71913H13.6585ZM13.6585 0.171875H5.6243C2.53087 0.171875 0 2.609 0 5.58786V13.3246C0 16.3034 2.53087 18.7405 5.6243 18.7405H13.6585C16.752 18.7405 19.2828 16.3034 19.2828 13.3246V5.58786C19.2828 2.609 16.752 0.171875 13.6585 0.171875Z" fill="#274C5B"/><path d="M14.8633 5.58866C14.6249 5.58866 14.3919 5.52059 14.1937 5.39307C13.9956 5.26555 13.8411 5.0843 13.7499 4.87224C13.6587 4.66017 13.6348 4.42683 13.6813 4.20171C13.7278 3.97658 13.8426 3.76979 14.0111 3.60749C14.1797 3.44519 14.3944 3.33465 14.6282 3.28987C14.862 3.2451 15.1043 3.26808 15.3245 3.35592C15.5447 3.44375 15.7329 3.5925 15.8654 3.78335C15.9978 3.9742 16.0685 4.19858 16.0685 4.42812C16.0688 4.58061 16.0379 4.73167 15.9774 4.87262C15.917 5.01357 15.8282 5.14164 15.7163 5.24947C15.6043 5.3573 15.4713 5.44278 15.3249 5.50098C15.1785 5.55919 15.0217 5.58898 14.8633 5.58866ZM9.64102 6.36207C10.2767 6.36207 10.8981 6.54359 11.4266 6.88366C11.9551 7.22373 12.3671 7.70709 12.6103 8.27262C12.8536 8.83814 12.9172 9.46042 12.7932 10.0608C12.6692 10.6612 12.3631 11.2126 11.9136 11.6455C11.4641 12.0783 10.8915 12.3731 10.268 12.4925C9.64458 12.6119 8.99837 12.5506 8.4111 12.3164C7.82382 12.0821 7.32187 11.6854 6.96872 11.1765C6.61557 10.6675 6.42707 10.0691 6.42707 9.45699C6.42798 8.63643 6.76689 7.84974 7.36942 7.26952C7.97196 6.6893 8.78891 6.36295 9.64102 6.36207ZM9.64102 4.81482C8.68757 4.81482 7.75554 5.08708 6.96278 5.59717C6.17002 6.10726 5.55214 6.83226 5.18727 7.68051C4.8224 8.52875 4.72694 9.46214 4.91294 10.3627C5.09895 11.2632 5.55808 12.0903 6.23227 12.7395C6.90645 13.3887 7.76542 13.8309 8.70055 14.01C9.63567 14.1891 10.605 14.0972 11.4858 13.7458C12.3667 13.3945 13.1196 12.7995 13.6493 12.0361C14.179 11.2727 14.4617 10.3752 14.4617 9.45699C14.4617 8.22581 13.9538 7.04506 13.0498 6.17448C12.1457 5.30391 10.9196 4.81482 9.64102 4.81482Z" fill="#274C5B"/></g><defs><clipPath id="clip0_1_478"><rect width="20" height="19" fill="white" transform="translate(0 0.171875)"/></clipPath></defs></svg>
+                        </a>
+                    </div>
+
+                    <div class="footer__content_main_social_item">
+                        <a href="#" class="footer__content_main_social_link">
+                            <svg class="footer__content_main_social_link_ico" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.79664 0.171875C4.38662 0.171875 0 4.55653 0 9.96414C0 13.9729 2.41417 17.4177 5.86486 18.9346C5.83862 18.2526 5.86049 17.4308 6.03543 16.6876C6.22349 15.892 7.295 11.3499 7.295 11.3499C7.295 11.3499 6.9801 10.7248 6.9801 9.80239C6.9801 8.35104 7.81982 7.26689 8.86946 7.26689C9.76165 7.26689 10.1903 7.93574 10.1903 8.73573C10.1903 9.6319 9.61732 10.9696 9.3243 12.2111C9.07938 13.2516 9.84475 14.0953 10.8725 14.0953C12.7269 14.0953 13.9777 11.7128 13.9777 8.88875C13.9777 6.74232 12.5301 5.13796 9.9016 5.13796C6.932 5.13796 5.07763 7.35432 5.07763 9.82862C5.07763 10.6811 5.3313 11.2844 5.72491 11.7478C5.90422 11.962 5.93046 12.0494 5.86486 12.2942C5.81675 12.4734 5.71179 12.9062 5.66368 13.0811C5.59808 13.3303 5.3969 13.4177 5.17385 13.3259C3.80494 12.7663 3.16641 11.2713 3.16641 9.58381C3.16641 6.80351 5.51498 3.46802 10.1684 3.46802C13.9077 3.46802 16.37 6.17401 16.37 9.07672C16.37 12.9193 14.2314 15.7871 11.0824 15.7871C10.0241 15.7871 9.03128 15.2144 8.69014 14.5674C8.69014 14.5674 8.12159 16.8231 7.99913 17.2603C7.79357 18.0166 7.38684 18.7685 7.01509 19.3586C7.91686 19.6245 8.85208 19.76 9.79226 19.7608C15.2023 19.7608 19.5889 15.3761 19.5889 9.96852C19.5889 4.56091 15.2067 0.171875 9.79664 0.171875Z" fill="#274C5B"/></svg> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__content_nav">
+                <h3 class="footer__content_title">Utility Pages</h3>
+                <ul class="footer__content_nav_list">
+                    <li class="footer__content_nav_item"><a class="footer__content_nav_link" href="#">Style Guide</a></li>
+                    <li class="footer__content_nav_item"><a class="footer__content_nav_link" href="#">Protected</a></li>
+                    <li class="footer__content_nav_item"><a class="footer__content_nav_link" href="#">Page Not Found</a></li>
+                    <li class="footer__content_nav_item"><a class="footer__content_nav_link" href="#">Changelog</a></li>
+                    <li class="footer__content_nav_item"><a class="footer__content_nav_link" href="#">Licenses</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
+    <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4043096.0161773604!2d-98.65947175047961!3d45.59265293475478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1727996244146!5m2!1sru!2sby" height="662" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </footer>
-   
 </div>
 </body>
 </html>
+
