@@ -30,6 +30,11 @@
 		gap: 5px;
 	}
 
+	.reviews {
+		background-size: contain;
+		background-repeat: repeat;
+	}
+
 	.reviews__content_items {
 		gap: 16px;
 	}
@@ -74,9 +79,7 @@
 		flex-direction: column;
 	}
 
-	.reviews {
-		background-repeat: repeat;
-	}
+
 
 	.reviews__content_customer {
 		width: 80%;

@@ -495,7 +495,7 @@ body {
 .reviews {
     background-image: url(/images/bg_review.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
