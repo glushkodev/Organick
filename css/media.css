@@ -419,8 +419,15 @@
 }
 
 @media (max-width: 425px) {
+	.btn_primary_but {
+    padding: 10px 13px
+	}
+
+	.header {
+		padding: 20px 0;
+	}
+
 	.header__content,
-	.header__content_left,
 	.footer__subscribe_form,
 	.about__items_content_items_item,
 	.footer__content_main_social {
@@ -433,11 +440,6 @@
 	.header__content_basket {
 		gap: 0px;
 		padding: 7px 3px 7px 3px;
-	}
-
-	.header__content_basket_cart,
-	.header__content_basket {
-		flex-direction: column;
 	}
 
 	.header__content_basket_cart_number {
@@ -461,12 +463,18 @@
 
 	.reviews__content_items_item {
 		height: 245px;
+		width: 245px;
 	}
 
 	.products__content_items_item, 
 	.offers__content_items_item,
 	.cards__items_item {
     width: 90%;
+	}
+
+	.products__content_items_item,
+	.offers__content_items_item {
+    padding: 30px 30px 30px 30px;
 	}
 	
 	.farm__content_img {
@@ -484,6 +492,11 @@
     font-size: 24px;
   }
 
+	.footer__content {
+		gap: 10px;
+		padding: 20px 0;
+	}
+
 	.footer__subscribe {
     padding: 0 0 10px 0;
   }
@@ -494,6 +507,13 @@
 }
 
 @media (max-width: 375px) {
+	.header__content_basket_cart,
+	.header__content_left,
+	.header__content_basket {
+		flex-direction: column;
+		gap: 0px;
+	}
+
 	.promo__content,
 	.products__content_items_item, 
 	.offers__content_items_item, 
@@ -515,6 +535,7 @@
 
   .reviews__content_items_item {
     height: 285px;
+		width: 285px;
   }
 	
 	.footer__subscribe_title,
