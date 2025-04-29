@@ -30,7 +30,7 @@ body {
     font-size: 38px;
     line-height: 59px;
     position: relative;
-    background-image: url(/images/ico_logo.png);
+    background-image: url(images/ico_logo.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 46px;
@@ -103,7 +103,7 @@ body {
     background-color: #274C5B;
     border-radius: 50%;
     padding: 28px 28px;
-    background-image: url(/images/ico_basket.png);
+    background-image: url(images/ico_basket.png);
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -133,7 +133,7 @@ body {
 }
 
 .promo {
-    background-image: url(/images/bg_promo.png);
+    background-image: url(images/bg_promo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -226,7 +226,7 @@ body {
 }
 
 .promo-cards__natural { 
-    background-image: url(/images/bg_fruits.png);
+    background-image: url(images/bg_fruits.png);
 }
 
 .promo-cards__natural_promo {
@@ -253,7 +253,7 @@ body {
 }
 
 .promo-cards__offer {
-    background-image: url(/images/bg_vegetables.png);
+    background-image: url(images/bg_vegetables.png);
 }
 
 .about {
@@ -332,11 +332,11 @@ body {
 }
 
 .about__items_content_items_item_img-org {
-    background-image: url(/images/ico_organic.png);
+    background-image: url(images/ico_organic.png);
 }
 
 .about__items_content_items_item_img-qual {
-    background-image: url(/images/ico_quality.png);
+    background-image: url(images/ico_quality.png);
 }
 
 .about__items_content_items_item_cont {
@@ -493,7 +493,7 @@ body {
 }
 
 .reviews {
-    background-image: url(/images/bg_review.png);
+    background-image: url(images/bg_review.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -629,7 +629,7 @@ body {
 
 .farm__content_img {
     flex: 1;
-    background-image: url(/images/farm.png);
+    background-image: url(images/farm.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -698,15 +698,15 @@ body {
 }
 
 .cards__items_item-juice {
-    background-image: url(/images/bg_juice.png);
+    background-image: url(images/bg_juice.png);
 }
 
 .cards__items_item-food {
-    background-image: url(/images/bg_food.png);
+    background-image: url(images/bg_food.png);
 }
 
 .cards__items_item-cookies {
-    background-image: url(/images/bg_cookies.png);
+    background-image: url(images/bg_cookies.png);
 }
 
 .cards__items_item_btn {
@@ -731,7 +731,7 @@ body {
 }
 
 .footer__subscribe {
-    background-image: url(/images/bg_subscribe.png);
+    background-image: url(images/bg_subscribe.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;

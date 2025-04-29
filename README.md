@@ -4,4 +4,6 @@ Hello! This is my responsive one-page website built with HTML5 & CSS3, showcasin
 
 I’d appreciate your feedback on code structure.
 
-Thanks for visiting my project! 🌿
+Thanks for visiting my project! 😊🌿
+
+**RUN** https://glushkodev.github.io/Organick/
