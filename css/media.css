@@ -158,6 +158,10 @@
   .header__nav_link {
     color: #000000;
   }
+
+	.header__nav_link:hover {
+		color: #fff;
+	}
 	
 	.btn_primary {
 		padding: 17px 30px 17px 30px;
