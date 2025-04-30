@@ -580,6 +580,7 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1 / 1;
 }
 
 .reviews__content_items_item_numb {
